@@ -50,3 +50,22 @@ For best results, run with root privileges if required by some tools.
 
 ## License
 For educational use in CS3873 Network Measurement Lab.
+
+
+
+## Running tracert.sh
+
+The `tracert.sh` script is a helper tool for running traceroute on a set of **predefined destinations**.  
+The destinations are hardcoded inside the script, so you do not need to pass any arguments.
+
+### Usage
+```bash
+chmod +x tracert.sh      # Make the script executable (only needed once)
+./tracert.sh
+
+### Example
+```bash
+./tracert.sh 
+```
+
+This will run traceroute on the specified host and create logs for the hardcoded destinations.
